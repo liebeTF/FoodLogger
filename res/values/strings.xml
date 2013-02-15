@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">FoodProposer</string>
+    <string name="app_name">FoodLogger</string>
     <string name="energyLabel">熱量(kcal)</string>
     <string name="proteinLabel">タンパク質(g)</string>
     <string name="carbohydrateLabel">炭水化物(g)</string>

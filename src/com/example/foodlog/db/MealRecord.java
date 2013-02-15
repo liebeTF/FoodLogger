@@ -28,9 +28,9 @@ public class MealRecord implements Serializable {
 	public static final String COLUMN_LIPID = "lipid";
 	public static final String COLUMN_ENERGY = "energy";
 	
-	static private Double E_PROTEIN = 4.0;
-	static private Double E_CARBOHYDRATE = 4.0;
-	static private Double E_LIPID = 9.0;
+	static public Double E_PROTEIN = 4.0;
+	static public Double E_CARBOHYDRATE = 4.0;
+	static public Double E_LIPID = 9.0;
 	
 	
 

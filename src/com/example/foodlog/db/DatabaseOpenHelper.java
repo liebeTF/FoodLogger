@@ -70,9 +70,9 @@ public class DatabaseOpenHelper extends SQLiteOpenHelper {
 			createSql.append(FoodData.COLUMN_NAME + " text unique not null,");
 			createSql.append(FoodData.COLUMN_UNIT + " text not null,");
 			createSql.append(FoodData.COLUMN_KIND + " integer not null,");
-			createSql.append(FoodData.COLUMN_PROTEIN + " real,");
-			createSql.append(FoodData.COLUMN_CARBOHYDRATE + " real,");
-			createSql.append(FoodData.COLUMN_LIPID + " real");
+			createSql.append(MealRecord.COLUMN_PROTEIN + " real,");
+			createSql.append(MealRecord.COLUMN_CARBOHYDRATE + " real,");
+			createSql.append(MealRecord.COLUMN_LIPID + " real");
 			createSql.append(")");
 			db.execSQL( createSql.toString());
 
